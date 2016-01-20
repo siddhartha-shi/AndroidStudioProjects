@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivitys">
+
+    <TextView
+        android:id="@+id/activity_txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/title_text" />
+
+    <Button
+        android:id="@+id/button_to_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/activity_txt_id"
+        android:text="@string/Button_to_Activity" />
+
+    <Button
+        android:id="@+id/button_to_json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_txt_id"
+        android:layout_toEndOf="@+id/button_to_activity"
+        android:layout_toRightOf="@+id/button_to_activity"
+        android:text="@string/Button_to_Json" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_to_json">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_gravity="left|top"
+            android:background="@drawable/call_image"
+            android:contentDescription="@string/des"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/call_image1"
+            android:contentDescription="@string/des"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageButton
+            tools:ignore="RtlHardcoded"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:id="@+id/imageButton3"
+            android:background="@drawable/call_image1"
+            android:layout_gravity="right|top"
+            android:contentDescription="@string/des" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

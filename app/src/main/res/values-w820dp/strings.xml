@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">All In One Sids Project</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_text">Bellow button for Go to different activities</string>
+    <string name="Button_to_Activity">Android Activity</string>
+    <string name="Button_to_Json">Go To Json</string>
+    <string name="activity_txt_tutorial">Just checking My mother apps working or not for Android Activity tutorial</string>
+    <string name="des">DataBase</string>
+    <string name="tv_nm">Tutorials Point</string>
+    <string name="tv2_jsn_nm">JSON example</string>
+</resources>
